@@ -1,0 +1,22 @@
+2026-01-10 18:49:13,979    INFO | Set manual seed to 1234
+2026-01-10 18:49:21,464    INFO | Load model and processor from lmms-lab/llava-onevision-qwen2-7b-ov
+2026-01-10 21:11:00,027   ERROR | Error in processing {'id': 1117, 'task': 'FPD', 'video': 'Ego4D/video/342f509b-4aa9-47f0-8fb2-1efd1f3bdbfa.mp4', 'realtime': 0.03, 'question': 'What is this person about to do from the desk?', 'answer': 'The person is going to take the bag from the desk.', 'options': ['The person is going to take the bag from the desk.', 'The person is going to organize the documents on the desk.', 'The person is going to write a note on the desk.', 'The person is going to open the notebook on the desk.'], 'gt': 0}: cannot reshape tensor of 0 elements into shape [1, 0, -1, 128] because the unspecified dimension size -1 can be any value and is ambiguous
+2026-01-10 23:37:59,857    INFO | Task: EPM, Acc: 56.23, Total: 297
+2026-01-10 23:37:59,857    INFO | Task: HLD, Acc: 29.57, Total: 186
+2026-01-10 23:37:59,857    INFO | Task: ASI, Acc: 56.76, Total: 148
+2026-01-10 23:37:59,857    INFO | Backward Avg.: 47.52
+
+2026-01-10 23:37:59,858    INFO | Task: STU, Acc: 59.55, Total: 178
+2026-01-10 23:37:59,858    INFO | Task: OJR, Acc: 72.28, Total: 184
+2026-01-10 23:37:59,858    INFO | Task: ATR, Acc: 75.86, Total: 116
+2026-01-10 23:37:59,858    INFO | Task: FPD, Acc: 74.00, Total: 100
+2026-01-10 23:37:59,858    INFO | Task: ACR, Acc: 67.89, Total: 109
+2026-01-10 23:37:59,858    INFO | Task: OCR, Acc: 80.54, Total: 149
+2026-01-10 23:37:59,858    INFO | Realtime Avg.: 71.69
+
+2026-01-10 23:37:59,859    INFO | Task: SSR, Acc: 71.63, Total: 42
+2026-01-10 23:37:59,859    INFO | Task: REC, Acc: 30.29, Total: 82
+2026-01-10 23:37:59,859    INFO | Task: CRR, Acc: 56.67, Total: 48
+2026-01-10 23:37:59,859    INFO | Forward Avg.: 52.86
+
+2026-01-10 23:37:59,859    INFO | Total Avg.: 57.36

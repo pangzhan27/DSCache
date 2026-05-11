@@ -1,0 +1,14 @@
+2025-12-11 19:25:19,852    INFO | Set manual seed to 1234
+2025-12-11 19:25:42,584    INFO | Load model and processor from lmms-lab/llava-onevision-qwen2-7b-ov
+2025-12-11 20:11:33,522    INFO | Totally get 2500 responses
+2025-12-11 20:11:33,575    INFO | - Object Perception: 303/369 = 82.11%
+2025-12-11 20:11:33,575    INFO | - Causal Reasoning: 90/128 = 70.31%
+2025-12-11 20:11:33,575    INFO | - Clips Summarize: 249/317 = 78.55%
+2025-12-11 20:11:33,575    INFO | - Attribute Perception: 247/312 = 79.17%
+2025-12-11 20:11:33,575    INFO | - Event Understanding: 110/159 = 69.18%
+2025-12-11 20:11:33,575    INFO | - Text-Rich Understanding: 234/321 = 72.90%
+2025-12-11 20:11:33,575    INFO | - Prospective Reasoning: 80/108 = 74.07%
+2025-12-11 20:11:33,575    INFO | - Spatial Understanding: 167/246 = 67.89%
+2025-12-11 20:11:33,575    INFO | - Action Perception: 247/352 = 70.17%
+2025-12-11 20:11:33,575    INFO | - Counting: 64/188 = 34.04%
+2025-12-11 20:11:33,576    INFO | Total: 2500, Correct: 1791, Accuracy: 71.64%

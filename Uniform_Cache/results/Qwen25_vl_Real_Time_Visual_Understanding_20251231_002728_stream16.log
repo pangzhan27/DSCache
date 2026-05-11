@@ -1,0 +1,14 @@
+2025-12-31 00:27:28,778    INFO | Set manual seed to 1234
+2025-12-31 00:28:07,363    INFO | Load model and processor from Qwen/Qwen2.5-VL-7B-Instruct
+2025-12-31 09:23:06,863    INFO | Totally get 2500 responses
+2025-12-31 09:23:06,866    INFO | - Object Perception: 323/369 = 87.53%
+2025-12-31 09:23:06,866    INFO | - Causal Reasoning: 104/128 = 81.25%
+2025-12-31 09:23:06,866    INFO | - Clips Summarize: 280/317 = 88.33%
+2025-12-31 09:23:06,866    INFO | - Attribute Perception: 266/312 = 85.26%
+2025-12-31 09:23:06,866    INFO | - Event Understanding: 124/159 = 77.99%
+2025-12-31 09:23:06,866    INFO | - Text-Rich Understanding: 277/321 = 86.29%
+2025-12-31 09:23:06,866    INFO | - Prospective Reasoning: 88/108 = 81.48%
+2025-12-31 09:23:06,866    INFO | - Spatial Understanding: 168/246 = 68.29%
+2025-12-31 09:23:06,866    INFO | - Action Perception: 249/352 = 70.74%
+2025-12-31 09:23:06,866    INFO | - Counting: 85/188 = 45.21%
+2025-12-31 09:23:06,866    INFO | Total: 2500, Correct: 1964, Accuracy: 78.56%

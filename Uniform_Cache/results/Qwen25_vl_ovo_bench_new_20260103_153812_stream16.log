@@ -1,0 +1,22 @@
+2026-01-03 15:38:12,883    INFO | Set manual seed to 1234
+2026-01-03 15:38:19,923    INFO | Load model and processor from Qwen/Qwen2.5-VL-7B-Instruct
+2026-01-03 18:49:45,194   ERROR | Error in processing {'id': 1117, 'task': 'FPD', 'video': 'Ego4D/video/342f509b-4aa9-47f0-8fb2-1efd1f3bdbfa.mp4', 'realtime': 0.03, 'question': 'What is this person about to do from the desk?', 'answer': 'The person is going to take the bag from the desk.', 'options': ['The person is going to take the bag from the desk.', 'The person is going to organize the documents on the desk.', 'The person is going to write a note on the desk.', 'The person is going to open the notebook on the desk.'], 'gt': 0}: 'Qwen2_5_VLForConditionalGeneration' object has no attribute 'num_token_per_frame'
+2026-01-03 22:12:48,840    INFO | Task: EPM, Acc: 43.10, Total: 297
+2026-01-03 22:12:48,841    INFO | Task: HLD, Acc: 21.51, Total: 186
+2026-01-03 22:12:48,841    INFO | Task: ASI, Acc: 62.16, Total: 148
+2026-01-03 22:12:48,841    INFO | Backward Avg.: 42.26
+
+2026-01-03 22:12:48,841    INFO | Task: STU, Acc: 55.62, Total: 178
+2026-01-03 22:12:48,841    INFO | Task: OJR, Acc: 65.76, Total: 184
+2026-01-03 22:12:48,841    INFO | Task: ATR, Acc: 67.24, Total: 116
+2026-01-03 22:12:48,841    INFO | Task: FPD, Acc: 69.00, Total: 100
+2026-01-03 22:12:48,841    INFO | Task: ACR, Acc: 62.39, Total: 109
+2026-01-03 22:12:48,841    INFO | Task: OCR, Acc: 86.58, Total: 149
+2026-01-03 22:12:48,841    INFO | Realtime Avg.: 67.76
+
+2026-01-03 22:12:48,842    INFO | Task: CRR, Acc: 57.08, Total: 48
+2026-01-03 22:12:48,842    INFO | Task: SSR, Acc: 51.41, Total: 42
+2026-01-03 22:12:48,842    INFO | Task: REC, Acc: 31.36, Total: 82
+2026-01-03 22:12:48,842    INFO | Forward Avg.: 46.62
+
+2026-01-03 22:12:48,842    INFO | Total Avg.: 52.21

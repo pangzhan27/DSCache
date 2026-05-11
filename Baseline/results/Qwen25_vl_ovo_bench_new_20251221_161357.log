@@ -1,0 +1,22 @@
+2025-12-21 16:13:57,393    INFO | Set manual seed to 1234
+2025-12-21 16:14:04,071    INFO | Load model and processor from Qwen/Qwen2.5-VL-7B-Instruct
+2025-12-21 16:50:24,020   ERROR | Error in processing {'id': 1416, 'task': 'OCR', 'video': 'AutoEvalMetaData/118.mp4', 'realtime': 630.7, 'question': 'What date is the event taking place?', 'answer': 'Sep-16-2023', 'options': ['09-18-2023', 'SEPT 16, 2023', 'Sep-16-2023', '08-29-2023'], 'gt': 2}: list index out of range
+2025-12-21 17:26:37,241    INFO | Task: EPM, Acc: 42.76, Total: 297
+2025-12-21 17:26:37,241    INFO | Task: HLD, Acc: 29.57, Total: 186
+2025-12-21 17:26:37,242    INFO | Task: ASI, Acc: 57.43, Total: 148
+2025-12-21 17:26:37,242    INFO | Backward Avg.: 43.25
+
+2025-12-21 17:26:37,242    INFO | Task: STU, Acc: 55.62, Total: 178
+2025-12-21 17:26:37,242    INFO | Task: OJR, Acc: 71.74, Total: 184
+2025-12-21 17:26:37,242    INFO | Task: ATR, Acc: 72.41, Total: 116
+2025-12-21 17:26:37,242    INFO | Task: FPD, Acc: 63.37, Total: 101
+2025-12-21 17:26:37,242    INFO | Task: ACR, Acc: 67.89, Total: 109
+2025-12-21 17:26:37,242    INFO | Task: OCR, Acc: 92.57, Total: 148
+2025-12-21 17:26:37,242    INFO | Realtime Avg.: 70.60
+
+2025-12-21 17:26:37,243    INFO | Task: SSR, Acc: 62.67, Total: 42
+2025-12-21 17:26:37,243    INFO | Task: CRR, Acc: 44.17, Total: 48
+2025-12-21 17:26:37,243    INFO | Task: REC, Acc: 26.13, Total: 82
+2025-12-21 17:26:37,243    INFO | Forward Avg.: 44.32
+
+2025-12-21 17:26:37,243    INFO | Total Avg.: 52.73

@@ -1,0 +1,17 @@
+2025-12-10 23:00:36,680    INFO | Set manual seed to 1234
+2025-12-10 23:00:44,271    INFO | Load model and processor from Qwen/Qwen2.5-VL-7B-Instruct
+2025-12-11 01:14:43,111   ERROR | Error in processing Pandas(Index=1205, question_id='Real-Time Visual Understanding_sample_242_1', task_type='Causal Reasoning', question='Why is the teddy bear seen flying in the toy plane in the sky?', time_stamp='00:24:00', answer='C', options="['A. Because someone threw the teddy bear.', 'B. Because the wind carried the teddy bear.', 'C. Because Mr. Bean uses a remote control to operate the toy plane.', 'D. Because the teddy bear has wings.']", frames_required='multiple', temporal_clue_type='Concurrent'): nframes should in interval [2, 1], but got 0.
+2025-12-11 02:04:31,794   ERROR | Error in processing Pandas(Index=1658, question_id='Real-Time Visual Understanding_sample_332_4', task_type='Attribute Perception', question='What color is the zebra crossing that pedestrians are walking across right now?', time_stamp='00:05:29', answer='D', options="['A. White.', 'B. Blue.', 'C. Red.', 'D. Yellow.']", frames_required='single', temporal_clue_type='Concurrent'): nframes should in interval [2, 0], but got 0.
+2025-12-11 02:04:31,956   ERROR | Error in processing Pandas(Index=1659, question_id='Real-Time Visual Understanding_sample_332_5', task_type='Event Understanding', question='What is the overall atmosphere of the scene in the video?', time_stamp='00:08:20', answer='D', options="['A. Calm and serene.', 'B. Quiet and empty.', 'C. Tense and chaotic.', 'D. Bustling and busy.']", frames_required='multiple', temporal_clue_type='Concurrent'): nframes should in interval [2, 0], but got 0.
+2025-12-11 03:36:13,952    INFO | Totally get 2497 responses
+2025-12-11 03:36:13,955    INFO | - Object Perception: 300/369 = 81.30%
+2025-12-11 03:36:13,955    INFO | - Causal Reasoning: 103/127 = 81.10%
+2025-12-11 03:36:13,955    INFO | - Clips Summarize: 279/317 = 88.01%
+2025-12-11 03:36:13,955    INFO | - Attribute Perception: 268/311 = 86.17%
+2025-12-11 03:36:13,955    INFO | - Event Understanding: 128/158 = 81.01%
+2025-12-11 03:36:13,955    INFO | - Text-Rich Understanding: 267/321 = 83.18%
+2025-12-11 03:36:13,955    INFO | - Prospective Reasoning: 88/108 = 81.48%
+2025-12-11 03:36:13,955    INFO | - Spatial Understanding: 174/246 = 70.73%
+2025-12-11 03:36:13,955    INFO | - Action Perception: 250/352 = 71.02%
+2025-12-11 03:36:13,955    INFO | - Counting: 81/188 = 43.09%
+2025-12-11 03:36:13,956    INFO | Total: 2497, Correct: 1938, Accuracy: 77.61%

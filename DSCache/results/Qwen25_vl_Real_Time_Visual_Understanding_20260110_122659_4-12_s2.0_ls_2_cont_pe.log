@@ -1,0 +1,15 @@
+2026-01-10 12:27:00,020    INFO | Set manual seed to 1234
+2026-01-10 12:27:09,199    INFO | Load model and processor from Qwen/Qwen2.5-VL-7B-Instruct
+2026-01-10 20:20:56,538   ERROR | Error in loading video ../datasets/StreamingBench/Real-Time Visual Understanding/sample_332/video.mp4
+2026-01-11 00:28:50,587    INFO | Totally get 2495 responses
+2026-01-11 00:28:50,591    INFO | - Object Perception: 327/369 = 88.62%
+2026-01-11 00:28:50,591    INFO | - Causal Reasoning: 102/128 = 79.69%
+2026-01-11 00:28:50,591    INFO | - Clips Summarize: 288/317 = 90.85%
+2026-01-11 00:28:50,591    INFO | - Attribute Perception: 275/309 = 89.00%
+2026-01-11 00:28:50,591    INFO | - Event Understanding: 124/157 = 78.98%
+2026-01-11 00:28:50,591    INFO | - Text-Rich Understanding: 297/321 = 92.52%
+2026-01-11 00:28:50,591    INFO | - Prospective Reasoning: 89/108 = 82.41%
+2026-01-11 00:28:50,591    INFO | - Spatial Understanding: 196/246 = 79.67%
+2026-01-11 00:28:50,591    INFO | - Action Perception: 280/352 = 79.55%
+2026-01-11 00:28:50,591    INFO | - Counting: 76/188 = 40.43%
+2026-01-11 00:28:50,591    INFO | Total: 2495, Correct: 2054, Accuracy: 82.32%

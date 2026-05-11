@@ -1,0 +1,21 @@
+2026-01-11 08:12:02,815    INFO | Set manual seed to 1234
+2026-01-11 08:12:11,732    INFO | Load model and processor from Qwen/Qwen2.5-VL-7B-Instruct
+2026-01-11 15:51:16,192    INFO | Task: EPM, Acc: 46.46, Total: 297
+2026-01-11 15:51:16,192    INFO | Task: HLD, Acc: 27.96, Total: 186
+2026-01-11 15:51:16,193    INFO | Task: ASI, Acc: 60.14, Total: 148
+2026-01-11 15:51:16,193    INFO | Backward Avg.: 44.85
+
+2026-01-11 15:51:16,193    INFO | Task: STU, Acc: 63.48, Total: 178
+2026-01-11 15:51:16,193    INFO | Task: OJR, Acc: 72.28, Total: 184
+2026-01-11 15:51:16,193    INFO | Task: ATR, Acc: 78.45, Total: 116
+2026-01-11 15:51:16,193    INFO | Task: FPD, Acc: 65.35, Total: 101
+2026-01-11 15:51:16,193    INFO | Task: ACR, Acc: 63.30, Total: 109
+2026-01-11 15:51:16,193    INFO | Task: OCR, Acc: 87.25, Total: 149
+2026-01-11 15:51:16,193    INFO | Realtime Avg.: 71.69
+
+2026-01-11 15:51:16,194    INFO | Task: REC, Acc: 32.93, Total: 82
+2026-01-11 15:51:16,194    INFO | Task: SSR, Acc: 59.40, Total: 42
+2026-01-11 15:51:16,194    INFO | Task: CRR, Acc: 56.67, Total: 48
+2026-01-11 15:51:16,194    INFO | Forward Avg.: 49.67
+
+2026-01-11 15:51:16,194    INFO | Total Avg.: 55.40

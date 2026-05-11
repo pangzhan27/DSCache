@@ -1,0 +1,21 @@
+2025-12-24 08:46:42,138    INFO | Set manual seed to 1234
+2025-12-24 08:46:49,114    INFO | Load model and processor from lmms-lab/llava-onevision-qwen2-7b-ov
+2025-12-24 13:38:01,272    INFO | Task: EPM, Acc: 57.24, Total: 297
+2025-12-24 13:38:01,272    INFO | Task: HLD, Acc: 24.19, Total: 186
+2025-12-24 13:38:01,272    INFO | Task: ASI, Acc: 56.76, Total: 148
+2025-12-24 13:38:01,272    INFO | Backward Avg.: 46.06
+
+2025-12-24 13:38:01,272    INFO | Task: STU, Acc: 52.25, Total: 178
+2025-12-24 13:38:01,272    INFO | Task: OJR, Acc: 69.02, Total: 184
+2025-12-24 13:38:01,272    INFO | Task: ATR, Acc: 77.59, Total: 116
+2025-12-24 13:38:01,272    INFO | Task: FPD, Acc: 71.29, Total: 101
+2025-12-24 13:38:01,272    INFO | Task: ACR, Acc: 62.39, Total: 109
+2025-12-24 13:38:01,272    INFO | Task: OCR, Acc: 77.85, Total: 149
+2025-12-24 13:38:01,272    INFO | Realtime Avg.: 68.40
+
+2025-12-24 13:38:01,273    INFO | Task: REC, Acc: 33.07, Total: 82
+2025-12-24 13:38:01,273    INFO | Task: SSR, Acc: 67.04, Total: 42
+2025-12-24 13:38:01,273    INFO | Task: CRR, Acc: 58.75, Total: 48
+2025-12-24 13:38:01,273    INFO | Forward Avg.: 52.95
+
+2025-12-24 13:38:01,273    INFO | Total Avg.: 55.80

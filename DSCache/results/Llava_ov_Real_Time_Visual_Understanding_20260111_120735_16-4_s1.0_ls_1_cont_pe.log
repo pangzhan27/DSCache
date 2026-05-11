@@ -1,0 +1,15 @@
+2026-01-11 12:07:36,132    INFO | Set manual seed to 1234
+2026-01-11 12:07:43,839    INFO | Load model and processor from lmms-lab/llava-onevision-qwen2-7b-ov
+2026-01-11 17:09:48,658   ERROR | Error in loading video ../datasets/StreamingBench/Real-Time Visual Understanding/sample_332/video.mp4
+2026-01-11 19:50:34,652    INFO | Totally get 2495 responses
+2026-01-11 19:50:34,655    INFO | - Object Perception: 324/369 = 87.80%
+2026-01-11 19:50:34,655    INFO | - Causal Reasoning: 101/128 = 78.91%
+2026-01-11 19:50:34,655    INFO | - Clips Summarize: 276/317 = 87.07%
+2026-01-11 19:50:34,655    INFO | - Attribute Perception: 275/309 = 89.00%
+2026-01-11 19:50:34,655    INFO | - Event Understanding: 117/157 = 74.52%
+2026-01-11 19:50:34,655    INFO | - Text-Rich Understanding: 271/321 = 84.42%
+2026-01-11 19:50:34,655    INFO | - Prospective Reasoning: 82/108 = 75.93%
+2026-01-11 19:50:34,656    INFO | - Spatial Understanding: 183/246 = 74.39%
+2026-01-11 19:50:34,656    INFO | - Action Perception: 275/352 = 78.12%
+2026-01-11 19:50:34,656    INFO | - Counting: 69/188 = 36.70%
+2026-01-11 19:50:34,656    INFO | Total: 2495, Correct: 1973, Accuracy: 79.08%
