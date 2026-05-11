@@ -12,6 +12,7 @@ cd Uniform_Cache
 python StreamingBench_stream.py --model_name llava --context_len 32
 python OVOBench_stream.py --model_name llava  --context_len 32
 
+# Since Qwen processes two frames per encoding, we set the context length to half of that used in LLaVA.
 python StreamingBench_stream.py --model_name qwen --context_len 16
 python OVOBench_stream.py --model_name qwen  --context_len 16
 
